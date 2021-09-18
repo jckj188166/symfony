@@ -1028,7 +1028,7 @@ abstract class FrameworkExtensionTest extends TestCase
         $this->assertSame('Fixtures/translations', $options['cache_vary']['scanned_directories'][3]);
     }
 
-    public function testTranslatorMultipleFallbacks()
+    public function testTranslatorMultipleFullback()
     {
         $container = $this->createContainerFromFile('translator_fallbacks');
 

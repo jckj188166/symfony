@@ -1,7 +1,7 @@
 Console Tool
 
 <comment>Usage:</comment>
-  command [options] [arguments]
+  [options] command [arguments]
 
 <comment>Options:</comment>
   <info>-h, --help</info>            Display help for the given command. When no command is given display help for the <info>list</info> command
